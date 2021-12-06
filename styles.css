@@ -28,7 +28,7 @@ html {
     background: linear-gradient(0, var(--black) 20%, var(--dark-orange) 100%);
     display: flex;
     flex-direction: column;
-    height: 43vh;
+    height: 349px;
     justify-content: center;
     min-width: 320px;
     position: relative;
