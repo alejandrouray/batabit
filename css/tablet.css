@@ -1,20 +1,20 @@
-header {
+.header {
     justify-content: space-around;
 }
 
 .currency {
     display: flex;
-    width: 930px;
     margin: 0 auto;
+    width: 930px;
 }
 
-.product-cards--container {
+.cards {
     display: flex;
     flex-wrap: wrap;
-    width: 930px;
     margin: 0 auto;
+    width: 930px;
 }
 
-.plans-container--slider {
+.plans__slider {
     justify-content: center;
 }
