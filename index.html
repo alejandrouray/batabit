@@ -19,121 +19,194 @@
         />
     </head>
     <body>
-        <header>
-            <img src="./assets/img/logo.svg" alt="" />
-            <div class="header--title-container">
-                <h1>
-                    La próxima revoluci&oacute;n en el intercambio de
+        <header class="header">
+            <img
+                src="./assets/img/logo.svg"
+                alt="Logo Batabit"
+                class="header__logo"
+            />
+            <div class="header__main-container">
+                <h1 class="header__title">
+                    La pr&oacute;xima revoluci&oacute;n en el intercambio de
                     criptomonedas.
                 </h1>
-                <p>
+                <p class="header__subtitle">
                     Batabit te ayuda a navegar entre los diferentes precios y
                     tendencias.
                 </p>
-                <a href="#plans" class="header--button"
-                    >Conoce Nuestros Planes <span></span
+                <a href="#plans" class="header__button"
+                    >Conoce Nuestros Planes
+                    <span class="header__down-arrow"></span
                 ></a>
             </div>
         </header>
-        <main>
-            <section class="main-exchange-container">
-                <div class="main-exchange-container--background"></div>
-                <div class="main-exchange-container--title">
-                    <h2>Visibilizamos todas las tasas de cambio.</h2>
-                    <p>
+        <main class="main">
+            <section class="exchange">
+                <div class="exchange__background"></div>
+                <div class="exchange__main-container">
+                    <h2 class="exchange__title">
+                        Visibilizamos todas las tasas de cambio.
+                    </h2>
+                    <p class="exchange__subtitle">
                         Traemos información en tiempo real de las casas de
                         cambio y las monedas más importantes del mundo.
                     </p>
                 </div>
                 <section class="currency">
-                    <div class="currency__table">
-                        <p class="currency__table--title">Monedas</p>
-                        <div class="currency__table--container">
-                            <table>
+                    <div class="currency__main-container">
+                        <p class="currency__title">Monedas</p>
+                        <div class="currency__table-container">
+                            <table class="currency__table">
                                 <tr>
-                                    <td class="currency__table--top-left">
+                                    <td
+                                        class="
+                                            currency__cell
+                                            currency__cell-top-left
+                                        "
+                                    >
                                         Bitcoin
                                     </td>
                                     <td
                                         class="
-                                            currency__table--right
-                                            currency__table--top-right
+                                            currency__cell
+                                            currency__cell-right
+                                            currency__cell-top-right
                                         "
                                     >
-                                        $1.96 <span class="down"></span>
+                                        $1.96
+                                        <span
+                                            class="
+                                                currency__trending
+                                                currency__trending--down
+                                            "
+                                        ></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Ethereum</td>
-                                    <td class="currency__table--right">
-                                        $0.07 <span class="up"></span>
+                                    <td class="currency__cell">Ethereum</td>
+                                    <td
+                                        class="
+                                            currency__cell currency__cell-right
+                                        "
+                                    >
+                                        $0.07
+                                        <span
+                                            class="
+                                                currency__trending
+                                                currency__trending--up
+                                            "
+                                        ></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Ripple</td>
-                                    <td class="currency__table--right">
-                                        $2.17 <span class="down"></span>
+                                    <td class="currency__cell">Ripple</td>
+                                    <td
+                                        class="
+                                            currency__cell currency__cell-right
+                                        "
+                                    >
+                                        $2.17
+                                        <span
+                                            class="
+                                                currency__trending
+                                                currency__trending--down
+                                            "
+                                        ></span>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="currency__table--bottom-left">
+                                    <td
+                                        class="
+                                            currency__cell
+                                            currency__cell-bottom-left
+                                        "
+                                    >
                                         Stellar
                                     </td>
                                     <td
                                         class="
-                                            currency__table--right
-                                            currency__table--bottom-right
+                                            currency__cell
+                                            currency__cell-right
+                                            currency__cell-bottom-right
                                         "
                                     >
-                                        $4.96 <span class="down"></span>
+                                        $4.96
+                                        <span
+                                            class="
+                                                currency__trending
+                                                currency__trending--down
+                                            "
+                                        ></span>
                                     </td>
                                 </tr>
                             </table>
                         </div>
-                        <div class="currency-table--date">
-                            <p>
+                        <div class="currency__date-container">
+                            <p class="currency__date">
                                 <strong>Actualizado:</strong> 04 de diciembre
                                 00:16
                             </p>
                         </div>
                     </div>
-                    <div class="currency__table">
-                        <p class="currency__table--title">Comisiones</p>
-                        <div class="currency__table--container">
-                            <table>
+                    <div class="currency__main-container">
+                        <p class="currency__title currency__title--blue">
+                            Comisiones
+                        </p>
+                        <div class="currency__table-container">
+                            <table class="currency__table">
                                 <tr>
-                                    <td class="currency__table--top-left">
+                                    <td
+                                        class="
+                                            currency__cell
+                                            currency__cell-top-left
+                                        "
+                                    >
                                         Bitrade
                                     </td>
                                     <td
                                         class="
-                                            currency__table--right
-                                            currency__table--top-right
+                                            currency__cell
+                                            currency__cell-right
+                                            currency__cell-top-right
                                         "
                                     >
                                         $1.96
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Bitpreco</td>
-                                    <td class="currency__table--right">
+                                    <td class="currency__cell">Bitpreco</td>
+                                    <td
+                                        class="
+                                            currency__cell currency__cell-right
+                                        "
+                                    >
                                         $0.07
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Novadax</td>
-                                    <td class="currency__table--right">
+                                    <td class="currency__cell">Novadax</td>
+                                    <td
+                                        class="
+                                            currency__cell currency__cell-right
+                                        "
+                                    >
                                         $2.17
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="currency__table--bottom-left">
+                                    <td
+                                        class="
+                                            currency__cell
+                                            currency__cell-bottom-left
+                                        "
+                                    >
                                         Coinext
                                     </td>
                                     <td
                                         class="
-                                            currency__table--right
-                                            currency__table--bottom-right
+                                            currency__cell
+                                            currency__cell-right
+                                            currency__cell-bottom-right
                                         "
                                     >
                                         $4.96
@@ -141,8 +214,13 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="currency-table--date">
-                            <p>
+                        <div
+                            class="
+                                currency__date-container
+                                currency__date-container--blue
+                            "
+                        >
+                            <p class="currency__date">
                                 <strong>Actualizado:</strong> 04 de diciembre
                                 00:16
                             </p>
@@ -150,46 +228,48 @@
                     </div>
                 </section>
             </section>
-            <section class="main-product-detail">
-                <span class="product-detail--batata-logo"></span>
-                <div class="product-detail--title">
-                    <h2>Creamos un producto sin comparación.</h2>
-                    <p>Confiable y diseñado para su uso diario.</p>
+            <section class="product-detail">
+                <span class="product-detail__logo"></span>
+                <div class="product-detail__main-container">
+                    <h2 class="product-detail__title">
+                        Creamos un producto sin comparación.
+                    </h2>
+                    <p class="product-detail__subtitle">
+                        Confiable y diseñado para su uso diario.
+                    </p>
                 </div>
-                <section class="product-cards--container">
-                    <article class="product-detail--card">
-                        <span class="icon-card clock"></span>
-                        <p class="product__card--title">Tiempo real</p>
-                        <p class="product__card--body">
+                <section class="cards">
+                    <article class="card__container">
+                        <span class="card__icon card__icon--clock"></span>
+                        <p class="card__title">Tiempo real</p>
+                        <p class="card__body">
                             Nuestro API toma información minuto a minuto sobre
                             las tasas que más determinan el comportamiento.
                         </p>
                     </article>
-                    <article class="product-detail--card">
-                        <span class="icon-card eye"></span>
-                        <p class="product__card--title">
-                            No hay tasas escondidas
-                        </p>
-                        <p class="product__card--body">
+                    <article class="card__container">
+                        <span class="card__icon card__icon--eye"></span>
+                        <p class="card__title">No hay tasas escondidas</p>
+                        <p class="card__body">
                             Ni en la compra o al momento de exit, Batabit
                             siempre te muestra el costo real de lo que estás
                             adquiriendo.
                         </p>
                     </article>
-                    <article class="product-detail--card">
-                        <span class="icon-card dollar-sign"></span>
-                        <p class="product__card--title">Compara monedas</p>
-                        <p class="product__card--body">
+                    <article class="card__container">
+                        <span class="card__icon card__icon--dollar-sign"></span>
+                        <p class="card__title">Compara monedas</p>
+                        <p class="card__body">
                             No más rumores, con Babtabit sabrás el valor real de
                             cada moneda en el mercado actual.
                         </p>
                     </article>
-                    <article class="product-detail--card">
-                        <span class="icon-card check-circle"></span>
-                        <p class="product__card--title">
-                            Información confiable
-                        </p>
-                        <p class="product__card--body">
+                    <article class="card__container">
+                        <span
+                            class="card__icon card__icon--check-circle"
+                        ></span>
+                        <p class="card__title">Información confiable</p>
+                        <p class="card__body">
                             Nuestras fuentes están 100% verificadas y
                             continuamos auditando su contenido mientras se
                             actualizan.
@@ -197,70 +277,83 @@
                     </article>
                 </section>
             </section>
-            <section class="bitcoin-img-container">
+            <section class="meet-it-today">
                 <h2>Conócelo hoy.</h2>
             </section>
-            <section id="plans" class="main-plans-container">
-                <div class="plans--title">
-                    <h2>Escoge el plan que mejor se ajuste a ti.</h2>
-                    <p>
+            <section id="plans" class="plans">
+                <div class="plans__title-container">
+                    <h2 class="plans__title">
+                        Escoge el plan que mejor se ajuste a ti.
+                    </h2>
+                    <p class="plans__subtitle">
                         Cualquier plan te da acceso completo a nuestra
                         plataforma.
                     </p>
                 </div>
-                <section class="plans-container--slider">
-                    <article class="plans-container--card">
-                        <p class="plans--type recommended">Recomendado</p>
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">Pago Anual</h3>
-                            <p class="plan-card--price"><sup>$</sup>99</p>
-                            <p class="plan-card--saving">
-                                *Ahorras $129 comparado al plan mensual.
-                            </p>
-                            <button class="plan-card--ca">
-                                Escoger este <span></span>
-                            </button>
-                        </div>
+                <section class="plans__slider">
+                    <article class="plan__card">
+                        <p class="plan__top-title plan__top-title--recommended">
+                            Recomendado
+                        </p>
+                        <h3 class="plan__title">Pago Anual</h3>
+                        <p class="plan__price">
+                            <sup class="plan__price-sign">$</sup>99
+                        </p>
+                        <p class="plan__saving">
+                            *Ahorras $129 comparado al plan mensual.
+                        </p>
+                        <button class="plan__cta">
+                            Escoger este <span class="plan__right-arrow"></span>
+                        </button>
                     </article>
-                    <article class="plans-container--card">
-                        <p class="plans--type basic">B&aacute;sico</p>
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">Pago Mensual</h3>
-                            <p class="plan-card--price"><sup>$</sup>19</p>
-                            <p class="plan-card--saving">
-                                *Plan b&aacute;sico aunque con todas las
-                                ventajas.
-                            </p>
-                            <button class="plan-card--ca">
-                                Escoger este <span></span>
-                            </button>
-                        </div>
+                    <article class="plan__card">
+                        <p class="plan__top-title plan__top-title--basic">
+                            B&aacute;sico
+                        </p>
+                        <h3 class="plan__title">Pago Mensual</h3>
+                        <p class="plan__price">
+                            <sup class="plan__price-sign">$</sup>19
+                        </p>
+                        <p class="plan__saving">
+                            *Plan b&aacute;sico aunque con todas las ventajas.
+                        </p>
+                        <button class="plan__cta">
+                            Escoger este <span class="plan__right-arrow"></span>
+                        </button>
                     </article>
-                    <article class="plans-container--card">
-                        <p class="plans--type unlimited">Ilimitado</p>
-                        <div class="plan-info-container">
-                            <h3 class="plan-card--title">De por vida</h3>
-                            <p class="plan-card--price"><sup>$</sup>199</p>
-                            <p class="plan-card--saving">
-                                *Exclusiva para los primeros 100 clientes
-                            </p>
-                            <button class="plan-card--ca">
-                                Escoger este <span></span>
-                            </button>
-                        </div>
+                    <article class="plan__card plan__card--unlimited">
+                        <p class="plan__top-title plan__top-title--unlimited">
+                            Ilimitado
+                        </p>
+                        <h3 class="plan__title">De por vida</h3>
+                        <p class="plan__price">
+                            <sup class="plan__price-sign">$</sup>199
+                        </p>
+                        <p class="plan__saving">
+                            *Exclusiva para los primeros 100 clientes
+                        </p>
+                        <button class="plan__cta">
+                            Escoger este <span class="plan__right-arrow"></span>
+                        </button>
                     </article>
                 </section>
             </section>
         </main>
-        <footer>
-            <section class="left">
-                <ul>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Crunchbase</a></li>
-                    <li><a href="#">Hackernews</a></li>
+        <footer class="footer">
+            <section class="footer__section footer__left">
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="#">LinkedIn</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="#">Crunchbase</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a class="footer__link" href="#">Hackernews</a>
+                    </li>
                 </ul>
             </section>
-            <section class="right">
+            <section class="footer__section">
                 <img
                     src="./assets/img/logo-footer.svg"
                     alt="Batabit Logo 2020"
